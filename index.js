@@ -1,6 +1,5 @@
 // index.js  — drop‑in replacement
 import express from 'express';
-import fetch from 'node-fetch';          // <-- keep if you’re on Node < 18.  On 18+ you can delete this line & the dep.
 import 'dotenv/config';
 
 const app   = express();
