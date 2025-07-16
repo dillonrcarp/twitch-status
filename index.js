@@ -1,5 +1,4 @@
 import express from 'express';
-import fetch from 'node-fetch';
 import 'dotenv/config';
 
 const app = express();
